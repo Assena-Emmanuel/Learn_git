@@ -22,7 +22,7 @@ if (command === "add") {
   saveNotes(notes);
   console.log("Note ajoutée !");
   // Affiche le nombre de notes
-  console.log("Nombre de notes :", loadNotes().length);
+  console.log("📌 Total notes disponibles :", loadNotes().length);
 }
 
 if (command === "list") {
