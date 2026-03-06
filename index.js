@@ -25,7 +25,7 @@ if (command === "add") {
 
 if (command === "list") {
   const notes = loadNotes();
-  console.log("Vos notes :");
+  console.log("🔹 Voici vos notes :");
   notes.forEach((note, index) => {
     console.log(`${index + 1}. ${note}`);
   });
